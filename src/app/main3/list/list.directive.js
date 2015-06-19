@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('angularDemo')
-  .directive('mainListDirective', [function() {
+  .directive('main3ListDirective', [function() {
     return {
       restrict: 'E',
       templateUrl: 'app/main3/list/list.html',

@@ -17,6 +17,11 @@ angular.module('angularDemo', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize'
         url: '/3',
         templateUrl: 'app/main3/main.html',
         controller: 'Main3Ctrl'
+      })
+      .state('home4', {
+        url: '/4',
+        templateUrl: 'app/main4/main.html',
+        controller: 'Main4Ctrl'
       });
 
     $urlRouterProvider.otherwise('/');
